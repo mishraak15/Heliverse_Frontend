@@ -1,0 +1,29 @@
+.ClassInput{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.ClassInput span{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.classinp-day-abbr{
+    font-size: 2em;
+    font-weight: 600;
+    border-radius: 50%;
+    border: 1px solid #b1b1b1;
+    font-family: monospace;
+    padding: 5px 13px;
+}
+
+.classinp-day-abbr:hover{
+    background-color: #b1b1b1;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.ClassInput input{
+    cursor: pointer;
+}

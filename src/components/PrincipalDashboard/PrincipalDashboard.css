@@ -1,0 +1,76 @@
+.PrincipalDashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em;
+}
+
+.principal-links-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.principal-links-container a {
+  padding: 1.5em;
+  background-color: blueviolet;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.principal-links-container a:hover {
+  background-color: #420080;
+}
+
+.principal-list-opt-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.principal-list-opt-container div {
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 1px solid #bdbdbd;
+}
+
+.principal-list-opt-container div:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.PrincipalDashboard .Loader {
+  height: fit-content;
+}
+
+.user-details-container {
+  margin: 1em 0;
+}
+
+.user-details-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details-heading div {
+  width: 40%;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  font-weight: 600;
+  font-family: "Poppins",sans-serif;
+  font-size: 20px;
+}
+
+.user-details-heading div:nth-child(3),
+.user-details-heading div:nth-child(4) {
+  width: 10%;
+}

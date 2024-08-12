@@ -1,0 +1,50 @@
+.CreateClassroom {
+  margin: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.classroom-inp-container,
+.classroom-teacher-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 50%;
+  margin: 10px 0;
+}
+
+.CreateClassroom input,
+.classroom-teacher-container select {
+  border: none;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+}
+
+.classroom-teacher-container select {
+  width: 70%;
+  cursor: pointer;
+}
+
+.CreateClassroom button {
+  padding: 8px;
+  border: none;
+  background: lightblue;
+  border-radius: 6px;
+  font-size: 18px;
+  /* font-weight: 500; */
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+}
+
+.CreateClassroom button:hover {
+  background-color: #68d4f8;
+  scale: 0.99;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}

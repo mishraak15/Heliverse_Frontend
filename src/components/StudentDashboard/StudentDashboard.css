@@ -1,0 +1,19 @@
+.StudentDashboard {
+  margin: 1.5em;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.StudentDashboard .UserDataRow {
+  justify-content: unset;
+}
+
+.StudentDashboard .user-details-heading {
+  justify-content: unset;
+}
+
+.StudentDashboard .user-details-heading div,
+.StudentDashboard .UserDataRow div {
+  width: 50%;
+}

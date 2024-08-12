@@ -1,0 +1,28 @@
+.NewUser {
+  width: 40%;
+  margin: 1.5em auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.NewUser button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: lightpink;
+  font-family: "Poppins", sans-serif;
+}
+
+.NewUser button:hover {
+  scale: 0.99;
+  background-color: #f87689;
+  cursor: pointer;
+}
+
+.NewUser .classroom-teacher-container {
+  width: 100%;
+}

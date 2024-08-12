@@ -1,0 +1,22 @@
+.TeacherDashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1.5em;
+}
+
+.teacher-class-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-class-schedule-container {
+  display: flex;
+  gap: 2em;
+  margin: 10px 0;
+}
+
+.teacher-class-schedule div:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+}

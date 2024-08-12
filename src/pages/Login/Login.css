@@ -1,0 +1,136 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 10px auto;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.Login h2 {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.Login-container {
+  border-radius: 6px;
+  display: flex;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.Login-container img {
+  width: 50%;
+  height: 400px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.Login-form {
+  width: 48%;
+  background-color: #d9d9d9;
+  padding: 1em;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2px;
+}
+
+.Login-userType {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Login-btn-container {
+  display: flex;
+  border: 1px solid #838383;
+  width: fit-content;
+  border-radius: 6px;
+  margin: 2px 0 7px 0;
+}
+
+.Login-btn-container div {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 1.5em;
+}
+
+.Login-btn-container div:nth-child(1) {
+  border-radius: 4px 0 0 4px;
+}
+
+.Login-btn-container div:nth-child(3) {
+  border-radius: 0 4px 4px 0;
+}
+
+.Login-btn-container div:hover {
+  cursor: pointer;
+  background-color: #6e6e6e;
+  transition: all 0.1s ease-in-out;
+  color: white;
+}
+
+.selectedUserType {
+  color: white;
+  background-color: #5e5e5e;
+}
+
+.nonSelectedUserType {
+  color: black;
+  background: transparent;
+}
+
+.Login-form-inputElement {
+  width: 100%;
+  background-color: #bfbfbf;
+  margin: 7px 0;
+  border-radius: 6px;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Login-form-inputElement input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 3px 8px;
+  color: #424242;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.Login-form-inputElement input::placeholder {
+  color: #777777;
+}
+
+.Login-form-inputElement-icon {
+  font-size: 1.3em;
+  color: #5e5e5e;
+  cursor: pointer;
+}
+
+.Login-submit-btn {
+  border: none;
+  background-color: deepskyblue;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--light-grey);
+  width: 100%;
+  margin: 10px 0;
+}
+
+.Login-submit-btn:hover {
+  cursor: pointer;
+  background-color: #37cdff;
+}
