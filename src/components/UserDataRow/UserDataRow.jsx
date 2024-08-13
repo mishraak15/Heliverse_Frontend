@@ -33,7 +33,7 @@ export default function UserDataRow({ data, fetchData, category = "Adult" }) {
     <div className="UserDataRow">
       <div>{data?.name || "N/A"}</div>
       <div>{data?.email}</div>
-      {!category === "Student" && (
+      {category !== "Student" && (
         <>
           <div className="userRow-btn-container">
             <FiEdit
